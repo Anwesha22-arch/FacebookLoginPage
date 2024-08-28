@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.c-img {
+    height: 800px;
+}
+/* this adds the "card" effect */
+.card{
+    display: flex;
+    width: 25%;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+}
+.all_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.review-box {
+    background-color: rgb(229, 206, 206);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.review-box h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.review-box p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #474343;
+    color: #fcfcfc;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer h3, .footer p {
+    margin: 5px 0;
+}
+.footer iframe {
+    border: none;
+    width: 650px;
+    height: 200px;
+}
